@@ -1,2 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
+.header-container {
+    display: inline-block;
+    background-color: #575757;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-links-div {
+    padding: 2px;
+}
+
+.brand, .nav-links {
+    color: #ffffff;
+    margin: 10px;
+    transition: color .3s;
+    float: left;
+    font-size: 25px;
+}
+
+.login, .signup {
+    float: right;
+}
+
+.brand {
+    color: rgb(94, 25, 25);
+}
+
+.brand:hover {
+    color: #ffffff;
+}
+
+.nav-links:hover {
+    color: rgb(94, 25, 25);
+}

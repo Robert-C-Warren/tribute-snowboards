@@ -2,12 +2,13 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    background-color: #cacaca;
 }
 
 .landing {
     display: flex;
     flex-direction: column;
+    background-color: #c8c8c8;
+    height: 100vh;
 }
 
 .intro-video {
