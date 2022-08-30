@@ -9,7 +9,6 @@ const Header = () => {
       <div className='nav-links-div'>
         <Link to='/' className='brand' style={{ textDecoration: 'none' }} >Tribute</Link>
         <Link to='/store' className='nav-links' style={{ textDecoration: 'none' }} >Store</Link>
-        <Link to='/categories' className='nav-links' style={{ textDecoration: 'none' }} >Categories</Link>
         <Link to='/used' className='nav-links' style={{ textDecoration: 'none' }} >Used</Link>
         <Link to='/login' className='nav-links login' style={{ textDecoration: 'none' }} >Login</Link>
         <Link to='/signup' className='nav-links signup' style={{ textDecoration: 'none' }} >Signup</Link>
