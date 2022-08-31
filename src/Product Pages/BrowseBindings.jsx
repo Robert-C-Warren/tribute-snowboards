@@ -1,6 +1,7 @@
 import React from 'react'
 import './Browse.css'
 import { useNavigate } from 'react-router'
+import Snowfall from 'react-snowfall'
 import Boss from '../Assets/Bindings/Boss.png'
 import HeroRed from '../Assets/Bindings/HeroRed.png'
 import Katana from '../Assets/Bindings/Katana.png'
@@ -28,8 +29,12 @@ const navigateShroom = () => {
     navigate('/shroom')
 }
 
+const price = 179;
+
   return (
     <div className='browse-boards'>
+
+        <Snowfall />
         
         <div className='boards-desc'>
             <h2 className='browse-boards-title'>Tribute Bindings</h2>
@@ -47,7 +52,7 @@ const navigateShroom = () => {
                     <img src={Boss} className='card-img-top' alt='Boss'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Boss</h3>
-                    <h6 className='price'>$179</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateBoss}>Buy</button>
                     </div>
                 </div>
@@ -59,7 +64,7 @@ const navigateShroom = () => {
                     <img src={HeroRed} className='card-img-top' alt='HeroRed'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Hero Red</h3>
-                    <h6 className='price'>$179</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateHeroRed}>Buy</button>
                     </div>
                 </div>
@@ -71,7 +76,7 @@ const navigateShroom = () => {
                     <img src={Katana} className='card-img-top' alt='Katana'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Katana</h3>
-                    <h6 className='price'>$179</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateKatana}>Buy</button>
                     </div>
                 </div>
@@ -83,7 +88,7 @@ const navigateShroom = () => {
                     <img src={Mustard} className='card-img-top' alt='Mustard'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Mustard</h3>
-                    <h6 className='price'>$179</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateMustard}>Buy</button>
                     </div>
                 </div>
@@ -95,7 +100,7 @@ const navigateShroom = () => {
                     <img src={Shroom} className='card-img-top' alt='Shroom'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Shroom</h3>
-                    <h6 className='price'>$179</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateShroom}>Buy</button>
                     </div>
                 </div>

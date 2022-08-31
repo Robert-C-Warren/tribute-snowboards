@@ -1,6 +1,7 @@
 import React from 'react'
 import './Browse.css'
 import { useNavigate } from 'react-router'
+import Snowfall from 'react-snowfall'
 import Gold from '../Assets/Goggles/24k.png'
 import Fluffy from '../Assets/Goggles/Fluffy.png'
 import Revent from '../Assets/Goggles/Revent.png'
@@ -28,8 +29,12 @@ const navigateToric = () => {
     navigate('/toric')
 }
 
+const price = 79;
+
   return (
     <div className='browse-boards'>
+
+        <Snowfall />
         
         <div className='boards-desc'>
             <h2 className='browse-boards-title'>Tribute Goggles</h2>
@@ -46,7 +51,7 @@ const navigateToric = () => {
                     <img src={Gold} className='card-img-top' alt='24k'/>
                     <div className='card-body'>
                     <h3 className='card-title'>24k</h3>
-                    <h6 className='price'>$79</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigate24k}>Buy</button>
                     </div>
                 </div>
@@ -58,7 +63,7 @@ const navigateToric = () => {
                     <img src={Fluffy} className='card-img-top' alt='Fluffy'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Fluffy</h3>
-                    <h6 className='price'>$79</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateFluffy}>Buy</button>
                     </div>
                 </div>
@@ -70,7 +75,7 @@ const navigateToric = () => {
                     <img src={Revent} className='card-img-top' alt='Revent'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Revent</h3>
-                    <h6 className='price'>$79</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateRevent}>Buy</button>
                     </div>
                 </div>
@@ -82,7 +87,7 @@ const navigateToric = () => {
                     <img src={Sunrise} className='card-img-top' alt='Sunrise'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Sunrise</h3>
-                    <h6 className='price'>$79</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateSunrise}>Buy</button>
                     </div>
                 </div>
@@ -94,7 +99,7 @@ const navigateToric = () => {
                     <img src={Toric} className='card-img-top' alt='Toric'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Toric</h3>
-                    <h6 className='price'>$79</h6>
+                    <h6 className='price'>${price}</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateToric}>Buy</button>
                     </div>
                 </div>

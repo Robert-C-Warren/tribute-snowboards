@@ -1,0 +1,10 @@
+.store-div {
+    background: linear-gradient(#123, #111);
+    height: 100vh;
+}
+
+@media screen and (max-width: 774px) {
+    .btn {
+        font-size: 12px;
+    }
+}

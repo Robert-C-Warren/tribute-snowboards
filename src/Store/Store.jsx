@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Store.css'
+import Snowfall from 'react-snowfall'
 import { useNavigate } from 'react-router';
 import Board from '../Assets/Snowboards/HypnoThumb.png'
 import Bindings from '../Assets/Bindings/HeroRed.png'
@@ -41,7 +42,9 @@ const navigateBeanies = () => {
 }
 
   return (
-   <div className='row row-cols-2 row-cols-sm-4 g-4'>
+   <div className='row row-cols-2 row-cols-sm-4 g-4 store-div'>
+
+   <Snowfall />
     
     {/* Snowboards Card */}
     <div className='col'>
