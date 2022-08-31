@@ -47,6 +47,7 @@ const navigateShroom = () => {
                     <img src={Boss} className='card-img-top' alt='Boss'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Boss</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateBoss}>Buy</button>
                     </div>
                 </div>
@@ -58,6 +59,7 @@ const navigateShroom = () => {
                     <img src={HeroRed} className='card-img-top' alt='HeroRed'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Hero Red</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateHeroRed}>Buy</button>
                     </div>
                 </div>
@@ -69,6 +71,7 @@ const navigateShroom = () => {
                     <img src={Katana} className='card-img-top' alt='Katana'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Katana</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateKatana}>Buy</button>
                     </div>
                 </div>
@@ -80,6 +83,7 @@ const navigateShroom = () => {
                     <img src={Mustard} className='card-img-top' alt='Mustard'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Mustard</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateMustard}>Buy</button>
                     </div>
                 </div>
@@ -91,6 +95,7 @@ const navigateShroom = () => {
                     <img src={Shroom} className='card-img-top' alt='Shroom'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Shroom</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateShroom}>Buy</button>
                     </div>
                 </div>

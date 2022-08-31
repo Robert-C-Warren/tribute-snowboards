@@ -46,6 +46,7 @@ const navigateTanned = () => {
                     <img src={Burlap} className='card-img-top' alt='Burlap'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Burlap</h3>
+                    <h6 className='price'>$79</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateBurlap}>Buy</button>
                     </div>
                 </div>
@@ -57,6 +58,7 @@ const navigateTanned = () => {
                     <img src={Clutch} className='card-img-top' alt='Clutch'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Clutch</h3>
+                    <h6 className='price'>$79</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateClutch}>Buy</button>
                     </div>
                 </div>
@@ -68,6 +70,7 @@ const navigateTanned = () => {
                     <img src={Denim} className='card-img-top' alt='Denim'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Denim</h3>
+                    <h6 className='price'>$79</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateDenim}>Buy</button>
                     </div>
                 </div>
@@ -79,6 +82,7 @@ const navigateTanned = () => {
                     <img src={Spring} className='card-img-top' alt='Spring'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Spring</h3>
+                    <h6 className='price'>$49</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateSpring}>Buy</button>
                     </div>
                 </div>
@@ -90,6 +94,7 @@ const navigateTanned = () => {
                     <img src={Tanned} className='card-img-top' alt='Tanned'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Tanned</h3>
+                    <h6 className='price'>$79</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateTanned}>Buy</button>
                     </div>
                 </div>

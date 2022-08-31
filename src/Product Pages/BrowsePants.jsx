@@ -46,6 +46,7 @@ const navigateSurplus = () => {
                     <img src={Cargo} className='card-img-top' alt='Cargo'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Cargo</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateCargo}>Buy</button>
                     </div>
                 </div>
@@ -57,6 +58,7 @@ const navigateSurplus = () => {
                     <img src={Construction} className='card-img-top' alt='Construction'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Construction</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateConstruction}>Buy</button>
                     </div>
                 </div>
@@ -68,6 +70,7 @@ const navigateSurplus = () => {
                     <img src={Foliage} className='card-img-top' alt='Foliage'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Foliage</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateFoliage}>Buy</button>
                     </div>
                 </div>
@@ -79,6 +82,7 @@ const navigateSurplus = () => {
                     <img src={Hazard} className='card-img-top' alt='Hazard'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Hazard</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateHazard}>Buy</button>
                     </div>
                 </div>
@@ -90,6 +94,7 @@ const navigateSurplus = () => {
                     <img src={Surplus} className='card-img-top' alt='Surplus'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Surplus</h3>
+                    <h6 className='price'>$179</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateSurplus}>Buy</button>
                     </div>
                 </div>

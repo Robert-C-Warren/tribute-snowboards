@@ -47,6 +47,7 @@ const navigateMirage = () => {
                     <img src={Construction} className='card-img-top' alt='Construction'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Construction</h3>
+                    <h6 className='price'>$149</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateConstruction}>Buy</button>
                     </div>
                 </div>
@@ -58,6 +59,7 @@ const navigateMirage = () => {
                     <img src={Control} className='card-img-top' alt='Control'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Control</h3>
+                    <h6 className='price'>$149</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateControl}>Buy</button>
                     </div>
                 </div>
@@ -69,6 +71,7 @@ const navigateMirage = () => {
                     <img src={Frost} className='card-img-top' alt='Frost'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Frost</h3>
+                    <h6 className='price'>$149</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateFrost}>Buy</button>
                     </div>
                 </div>
@@ -80,6 +83,7 @@ const navigateMirage = () => {
                     <img src={Mint} className='card-img-top' alt='Mint'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Mint</h3>
+                    <h6 className='price'>$149</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateMint}>Buy</button>
                     </div>
                 </div>
@@ -91,6 +95,7 @@ const navigateMirage = () => {
                     <img src={Mirage} className='card-img-top' alt='Mirage'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Mirage</h3>
+                    <h6 className='price'>$149</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateMirage}>Buy</button>
                     </div>
                 </div>

@@ -65,6 +65,7 @@ const navigateStickerBomb = () => {
                     <img src={Foliage} className='card-img-top' alt='Foliage'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Foliage</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateFoliage}>Buy</button>
                     </div>
                 </div>
@@ -76,6 +77,7 @@ const navigateStickerBomb = () => {
                     <img src={Granite} className='card-img-top' alt='Granite'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Granite</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateGranite}>Buy</button>
                     </div>
                 </div>
@@ -87,6 +89,7 @@ const navigateStickerBomb = () => {
                     <img src={Guns} className='card-img-top' alt='Guns'/>
                     <div className='card-body'>
                     <h3 className='card-title'>OBEY x Tribute</h3>
+                    <h6 className='price'>$599</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateGuns}>Buy</button>
                     </div>
                 </div>
@@ -98,6 +101,7 @@ const navigateStickerBomb = () => {
                     <img src={Hypno} className='card-img-top' alt='Hypno'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Hypno</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateHypno}>Buy</button>
                     </div>
                 </div>
@@ -109,6 +113,7 @@ const navigateStickerBomb = () => {
                     <img src={Jazz} className='card-img-top' alt='Jazz'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Jazz</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateJazz}>Buy</button>
                     </div>
                 </div>
@@ -120,6 +125,7 @@ const navigateStickerBomb = () => {
                     <img src={Mountains} className='card-img-top' alt='Mountains'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Mountains</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateMountains}>Buy</button>
                     </div>
                 </div>
@@ -131,6 +137,7 @@ const navigateStickerBomb = () => {
                     <img src={Patriot} className='card-img-top' alt='Patriot'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Patriot</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigatePatriot}>Buy</button>
                     </div>
                 </div>
@@ -142,6 +149,7 @@ const navigateStickerBomb = () => {
                     <img src={StickerBomb} className='card-img-top' alt='Sticker Bomb'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Sticker Bomb</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateStickerBomb}>Buy</button>
                     </div>
                 </div>
@@ -153,6 +161,7 @@ const navigateStickerBomb = () => {
                     <img src={RGB} className='card-img-top' alt='RGB'/>
                     <div className='card-body'>
                     <h3 className='card-title'>RGB</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateRGB}>Buy</button>
                     </div>
                 </div>
@@ -164,6 +173,7 @@ const navigateStickerBomb = () => {
                     <img src={Splatter} className='card-img-top' alt='Splatter'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Splatter</h3>
+                    <h6 className='price'>$399</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateSplatter}>Buy</button>
                     </div>
                 </div>

@@ -66,6 +66,7 @@ const navigateTracker = () => {
                     <img src={Astro} className='card-img-top' alt='Astro'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Astro</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateAstro}>Buy</button>
                     </div>
                 </div>
@@ -77,6 +78,7 @@ const navigateTracker = () => {
                     <img src={Bio} className='card-img-top' alt='Bio'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Bio</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateBio}>Buy</button>
                     </div>
                 </div>
@@ -88,6 +90,7 @@ const navigateTracker = () => {
                     <img src={Blurry} className='card-img-top' alt='Blurry'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Blurry</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateBlurry}>Buy</button>
                     </div>
                 </div>
@@ -99,6 +102,7 @@ const navigateTracker = () => {
                     <img src={Daisy} className='card-img-top' alt='Daisy'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Daisy</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateDaisy}>Buy</button>
                     </div>
                 </div>
@@ -110,6 +114,7 @@ const navigateTracker = () => {
                     <img src={Defy} className='card-img-top' alt='Defy'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Defy</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateDefy}>Buy</button>
                     </div>
                 </div>
@@ -121,6 +126,7 @@ const navigateTracker = () => {
                     <img src={Hazard} className='card-img-top' alt='Hazard'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Hazard</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateHazard}>Buy</button>
                     </div>
                 </div>
@@ -132,6 +138,7 @@ const navigateTracker = () => {
                     <img src={Patriot} className='card-img-top' alt='Patriot'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Patriot</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigatePatriot}>Buy</button>
                     </div>
                 </div>
@@ -143,6 +150,7 @@ const navigateTracker = () => {
                     <img src={Platoon} className='card-img-top' alt='Platoon'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Platoon</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigatePlatoon}>Buy</button>
                     </div>
                 </div>
@@ -154,6 +162,7 @@ const navigateTracker = () => {
                     <img src={Sylva} className='card-img-top' alt='Sylva'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Sylva</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateSylva}>Buy</button>
                     </div>
                 </div>
@@ -165,6 +174,7 @@ const navigateTracker = () => {
                     <img src={Tracker} className='card-img-top' alt='Tracker'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Tracker</h3>
+                    <h6 className='price'>$199</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateTracker}>Buy</button>
                     </div>
                 </div>

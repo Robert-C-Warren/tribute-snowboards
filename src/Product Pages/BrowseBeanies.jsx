@@ -44,6 +44,7 @@ const navigatePomPom = () => {
                     <img src={Classic} className='card-img-top' alt='Classic'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Classic</h3>
+                    <h6 className='price'>$29</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateClassic}>Buy</button>
                     </div>
                 </div>
@@ -55,6 +56,7 @@ const navigatePomPom = () => {
                     <img src={Headband} className='card-img-top' alt='Headband'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Headband</h3>
+                    <h6 className='price'>$19</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateHeadband}>Buy</button>
                     </div>
                 </div>
@@ -66,6 +68,7 @@ const navigatePomPom = () => {
                     <img src={Lime} className='card-img-top' alt='Lime'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Lime</h3>
+                    <h6 className='price'>$29</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateLime}>Buy</button>
                     </div>
                 </div>
@@ -77,6 +80,7 @@ const navigatePomPom = () => {
                     <img src={Mural} className='card-img-top' alt='Mural'/>
                     <div className='card-body'>
                     <h3 className='card-title'>Mural</h3>
+                    <h6 className='price'>$29</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigateMural}>Buy</button>
                     </div>
                 </div>
@@ -88,6 +92,7 @@ const navigatePomPom = () => {
                     <img src={PomPom} className='card-img-top' alt='PomPom'/>
                     <div className='card-body'>
                     <h3 className='card-title'>PomPom</h3>
+                    <h6 className='price'>$29</h6>
                     <button className='btn btn-dark' type='submit' onClick={navigatePomPom}>Buy</button>
                     </div>
                 </div>
