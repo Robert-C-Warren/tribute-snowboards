@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(#123, #111);
+    height: 100vh;
+}
+
+.container {
+    padding-top: 150px;
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.product-title {
+    padding-top: 130px;
+}
+
+.content p {
+    font-size: 12px;
+}
+
+.btn-light {
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        bottom: 100px;
+    }
+
+    .container {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .product-title {
+        padding-top: 50px;
+    }
+}

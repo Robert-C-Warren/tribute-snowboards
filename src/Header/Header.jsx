@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
         <Link to='/' className='brand' style={{ textDecoration: 'none' }} >Tribute</Link>
         <Link to='/store' className='nav-links' style={{ textDecoration: 'none' }} >Store</Link>
         <Link to='/used' className='nav-links' style={{ textDecoration: 'none' }} >Used</Link>
+        <Link to='/cart' className='bi bi-cart nav-links' style={{ textDecoration: 'none' }} ></Link>
         <Link to='/login' className='nav-links login' style={{ textDecoration: 'none' }} >Login</Link>
         <Link to='/signup' className='nav-links signup' style={{ textDecoration: 'none' }} >Signup</Link>
       </div>

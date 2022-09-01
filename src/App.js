@@ -11,6 +11,17 @@ import BrowsePants from './Product Pages/BrowsePants'
 import BrowseGoggles from './Product Pages/BrowseGoggles'
 import BrowseGloves from './Product Pages/BrowseGloves'
 import BrowseBeanies from './Product Pages/BrowseBeanies'
+import Cart from './Cart/Cart';
+import Foliage from './Snowboard Pages/Foliage';
+import Granite from './Snowboard Pages/Granite';
+import ObeyxTribute from './Snowboard Pages/ObeyxTribute';
+import Hypno from './Snowboard Pages/Hypno';
+import Jazz from './Snowboard Pages/Jazz';
+import Mountains from './Snowboard Pages/Mountains';
+import Patriot from './Snowboard Pages/Patriot';
+import StickerBomb from './Snowboard Pages/StickerBomb';
+import RGB from './Snowboard Pages/RGB';
+import Splatter from './Snowboard Pages/Splatter';
 
 function App() {
   return (
@@ -27,6 +38,19 @@ function App() {
           <Route path="/goggles" element={<><Header/> <BrowseGoggles/></>} />
           <Route path="/gloves" element={<><Header/> <BrowseGloves/></>} />
           <Route path="/beanies" element={<><Header/> <BrowseBeanies/></>} />
+          <Route path="/cart" element={<><Header/> <Cart/></>} />
+            
+            {/* Individual Product Pages */}
+            <Route path="/foliage" element={<><Header/> <Foliage/></>} />
+            <Route path="/granite" element={<><Header/> <Granite/></>} />
+            <Route path="/obeyxtribute" element={<><Header/> <ObeyxTribute/></>} />
+            <Route path="/hypno" element={<><Header/> <Hypno/></>} />
+            <Route path="/jazz" element={<><Header/> <Jazz/></>} />
+            <Route path="/mountains" element={<><Header/> <Mountains/></>} />
+            <Route path="/patriot" element={<><Header/> <Patriot/></>} />
+            <Route path="/stickerbomb" element={<><Header/> <StickerBomb/></>} />
+            <Route path="/rgb" element={<><Header/> <RGB/></>} />
+            <Route path="/splatter" element={<><Header/> <Splatter/></>} />
         </Routes>
       </BrowserRouter>
     </div>
